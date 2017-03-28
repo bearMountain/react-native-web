@@ -32,6 +32,7 @@ import Image from './components/Image';
 import ListView from './components/ListView';
 import ProgressBar from './components/ProgressBar';
 import ScrollView from './components/ScrollView';
+import Slider from './components/Slider';
 import Switch from './components/Switch';
 import Text from './components/Text';
 import TextInput from './components/TextInput';
@@ -88,6 +89,7 @@ const ReactNative = {
   ProgressBar,
   ScrollView,
   Switch,
+  Slider,
   Text,
   TextInput,
   Touchable,
