@@ -11,7 +11,7 @@ export class Slider extends Component {
         min={this.props.minimumValue}
         max={this.props.maximumValue}
         step={this.props.step}
-        onChange={e => this.props.onValueChange(e.target.value)} />
+        onChange={e => this.props.onValueChange(Number(e.target.value))} />
       );
     }
 }
